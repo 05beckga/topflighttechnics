@@ -1,0 +1,721 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+table{
+	position: relative;
+	
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+*{
+    box-sizing: border-box;
+
+}
+
+*{
+	
+	padding:0;
+	margin:0;
+	
+}
+
+/***** Top menu *****/
+
+.navbar-brand{
+	
+	max-width: 250px;
+	
+}
+
+.navbar-brand img{
+	
+	width: 100%;
+	
+}
+
+.bg-dark {
+    background-color: transparent!Important;
+}
+
+.navbar{
+	
+	position: absolute;
+	width: 100%;
+	
+}
+
+.nav-item{
+	
+	padding: 4px 0;
+    border-bottom: 1px solid #232222;
+	
+}
+
+@media (min-width: 992px){
+	.navbar-expand-lg .navbar-nav {
+
+		 background: transparent;
+	}
+	.nav-item {
+
+    border-bottom:none;
+
+	}
+	
+}
+
+@media (max-width: 390px){
+	.navbar-brand {
+    max-width: 180px;
+}
+	
+}
+
+
+.navbar-nav{
+	
+	text-align: center;
+    background: black;
+	position: relative;
+    z-index: 1;
+}
+
+/* fonts */
+
+h1{
+	
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+h1, h2,h3,h4,h5{
+	
+/*	font-family: 'Montserrat', sans-serif;*/
+	font-family: 'Fira Sans', sans-serif;
+}
+
+h2{
+	
+	font-size: 1.5rem;
+	line-height: 1.4;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+p{
+	line-height: 1.5;
+    font-size: .9rem;
+    color: #000;
+    font-weight: 300;
+	margin-bottom: 30px;
+}
+
+p, a, li,button,input,label,legend,th,tr{
+
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/***************/
+
+
+body{
+	
+   background: #fff;
+}
+
+table{
+	
+ overflow-y: auto;
+	
+}
+
+strong{
+	
+	font-weight: bold;
+}
+
+
+.container{
+	
+	width: 90%;
+	
+}
+
+	.banner-home h1{
+	    color: #ececec;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 93px;
+		
+	}
+
+	.small-intro{
+	font-size: .95rem;
+    line-height: 1.2;
+    margin-bottom: 32px;
+    color: #eaeaea;
+	
+}
+
+.banner-about h1{
+	
+	color: #fff;
+    font-size: 1.9rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 93px;
+    text-align: center;
+	
+}
+
+.blue-row img{
+	
+	width:100%;
+	
+}
+
+@media (min-width: 576px){
+	
+		.hid-img{
+            display: none;
+		}
+	
+	
+}
+
+@media (min-width: 992px){
+	
+			
+	.hid-img{
+            display: block;
+			width: 95%!important;
+			position: absolute;
+			top: 106px;
+			z-index: 1;
+			right: -2px;
+		}
+	
+	
+}
+
+@media (min-width: 1200px){
+	.container {
+		max-width: 1100px!important;
+			margin-left: auto;
+		margin-right: auto;
+
+
+	}
+
+		.banner-home h1{
+		font-size: 4.5rem;
+		text-indent: -8px;	
+		}
+
+
+		.small-intro{
+		font-size: 1.2rem;	
+	}
+
+		.banner-about h1{
+		font-size: 2.5rem;	
+	}
+	
+	.blue-row img{
+	margin-left: -61px;
+	}
+	
+	h2{
+	font-size: 1.8rem;
+	 margin-bottom: 50px;
+	}
+
+	p{
+		
+		font-size: 1.1rem;
+	}
+}
+	
+header{
+	width: 100%;
+	margin: 25px 0;
+    position: absolute;
+	z-index: 1;
+}
+
+
+.header{
+
+	    position: relative;
+}
+
+
+
+
+.logo-cont{
+	
+	    display: flex;
+    align-items: center;
+	
+}
+
+.logo img{
+	
+	width: 50%;
+    height: auto;
+    top: 0;
+	
+}
+
+
+.main{
+	
+	padding-bottom: 60px;
+    min-height: 400px;
+	
+}
+
+.section-2-banner{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	background-size:cover;
+	background-position: center center;
+	height: 50vh;
+	width: 100%;
+}
+
+
+
+/* top bar */
+
+#top-bar {
+    width: 100%;
+    height: 32px;
+    background-color: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#top-bar-right{
+	
+	    margin-right: 2.5%;
+	
+}
+
+
+
+#top-bar-left{
+	
+	margin-left: 2.5%;
+}
+
+.top-bar-text {
+    display: inline-block;
+	font-size: .7rem;
+    color: white;
+    padding: 0 5px;
+    vertical-align: middle; 
+	text-transform: uppercase;
+}
+
+
+
+.section-2-banner{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	background-size:cover;
+	background-position: center center;
+	height: 50vh;
+	width: 100%;
+}
+
+
+.banner-home{
+
+         height: 100vh;
+    background: url(../image/turbine-2.png)no-repeat;
+    background-position: center right;
+    background-size: cover;
+}
+
+
+.intro{
+	
+	flex-direction: column;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+	 padding: 70px 10px;
+}
+
+.intro h2{
+	
+	       font-size: 1.8rem;
+    margin-bottom: 20px;
+	
+}
+
+.intro p{
+	
+	 font-size: 1.1rem;
+    line-height: 1.5;
+
+	
+}
+
+.int-img{
+	
+	width: 404px;
+	
+}
+
+
+.split-sect{
+	
+	background: #000000;
+    padding: 23px;
+    text-align: center;
+    color: white;
+    font-size: 19px;
+	
+}
+
+
+.triangle {
+    width: 217px;
+    height: 400px;
+    border-top: 1101px solid #000000ad;
+    border-left: 904px solid #82828200;
+    margin-top: -334px;
+    margin-left: -310px;
+    position: relative;
+    z-index: -1;
+}
+
+.we-are{position: relative;}
+/*
+.we-are:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -61px;
+    width: 100%;
+    height: 68px;
+    background: #fff;
+ 
+}*/
+
+
+/* footer */
+
+footer{
+    min-height: 258px;
+    padding: 38px 40px 32px;
+    overflow: hidden;
+    color: #ffff;
+        background: #000000;
+	
+} 
+
+
+footer .row{
+	
+	justify-content: space-between;
+}
+
+.foot-li h3{
+	
+	font-weight: bold;
+    display: block;
+    letter-spacing: .1em;
+    line-height: normal;
+    margin-bottom: 10px;
+    text-align: left;
+	
+}
+
+.foot-li li{
+	
+	font-size: .9rem;
+	
+}
+
+.foot-li li{
+
+    height: 26px;
+    line-height: 32px;
+}
+
+
+.social-list li{
+	
+	display: inline-block;
+	 margin-left: 20px;
+}
+
+
+.social-list li i{
+	
+	font-size: 1.6rem;
+}
+
+
+.services > div{
+	
+	margin-bottom: 25px;
+	
+}
+.services .card-title {
+    margin-bottom: .75rem;
+    font-size: 1.3rem;
+    line-height: 34px;
+    font-weight: 400;
+    width: 100
+}
+
+.services .card-text {
+     margin-bottom: 10px;
+    font-size: .95rem;
+    line-height: 1.4;
+    font-weight: 300;
+	color: #fff;
+}
+
+.services .card-img-top {
+    width: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.services .card-img-top{
+	
+	height: 215px;
+}
+
+.services .card {
+
+    border: none; 
+    border-radius: .25rem;
+	overflow: hidden;
+	
+}
+
+.services .card:hover img{
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+
+.services .card:hover img{
+
+    -webkit-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    transform: scale(1.01);
+}
+
+.services .card-body{
+	
+	border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    background: #2b5c79;
+    color: white;
+	
+}
+
+.news .card-title{
+	
+	color: hsla(210,5%,45%,.55);
+    font-size: 22px;
+    line-height: 34px;
+    font-weight: 200;
+	margin-bottom:6rem;
+	
+}
+
+.news .far {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.testimonial-title__icon{
+	
+	    position: absolute;
+    bottom: 22px;
+	
+}
+
+.news .card:hover  {
+
+	border-color: #255672c4;
+}
+
+.news .card:hover  .card-title {
+    color: #255672c4;
+	border-color: #255672c4;
+}
+
+
+
+.overlay {
+    position: absolute;
+    background: #1bb6cc;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    mix-blend-mode: multiply;
+}
+	
+	.int{
+		
+		position: relative;
+		
+	}
+	
+	.int:before {
+   content: '';
+    position: absolute;
+    left: 0;
+    top: -27px;
+    width: 100%;
+    height: 57px;
+    background: #fff;
+    -webkit-transform: skewY(-2.20deg);
+    -moz-transform: skewY(-2.20deg);
+    -ms-transform: skewY(-2.20deg);
+    -o-transform: skewY(-2.20deg);
+    transform: skewY(-2.20deg);
+    -webkit-backface-visibility: hidden;
+}
+		
+	.careers{
+		
+		position: relative;
+	}
+	
+	
+		.careers:before {
+      content: '';
+    position: absolute;
+    left: 0;
+    top: -36px;
+    width: 100%;
+    height: 71px;
+    background: #fff;
+    -webkit-transform: skewY(-2.7deg);
+    -moz-transform: skewY(-2.7deg);
+    -ms-transform: skewY(-2.7deg);
+    -o-transform: skewY(-2.7deg);
+    transform: skewY(-2.7deg);
+    -webkit-backface-visibility: hidden;
+    z-index: 1;
+}
+
+	
+			.careers:after {
+   content: '';
+    position: absolute;
+    left: 0;
+    bottom: -36px;
+    width: 100%;
+    height: 74px;
+    background: #f4f4f4;
+    -webkit-transform: skewY(-2.7deg);
+    -moz-transform: skewY(-2.7deg);
+    -ms-transform: skewY(-2.7deg);
+    -o-transform: skewY(-2.7deg);
+    transform: skewY(-2.7deg);
+    -webkit-backface-visibility: hidden;
+}
+
+	
+	
+	/* about page */
+	
+	
+	.banner-about {
+    height: 40vh;
+    background: url(../image/turbine-2.png)no-repeat;
+    background-position: center right;
+    background-size: cover;
+}
+	
+	.ab-int{
+		
+		position:relative;
+	}	
+	.ab-int:before {
+   content: '';
+    position: absolute;
+    left: 0;
+    top: -27px;
+    width: 100%;
+    height: 57px;
+    background: #f4f4f4;
+    -webkit-transform: skewY(-2.20deg);
+    -moz-transform: skewY(-2.20deg);
+    -ms-transform: skewY(-2.20deg);
+    -o-transform: skewY(-2.20deg);
+    transform: skewY(-2.20deg);
+    -webkit-backface-visibility: hidden;
+}
